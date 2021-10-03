@@ -19,7 +19,13 @@ const state = {
     const currentState = this.getState();
     currentState.currentGame.myPlay = move;
     currentState.currentGame.computerPlay = this.computerMove();
-    return currentState.currentGame;
+    const resultado = currentState.currentGame;
+    return resultado;
+  },
+  clearCurrentGame() {
+    const currentState = this.getState();
+    currentState.currentGame.myPlay = "";
+    currentState.currentGame.computerPlay = "";
   },
   computerMove() {
     const moves = ["piedra", "papel", "tijera"];

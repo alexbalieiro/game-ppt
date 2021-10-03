@@ -5,8 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel",
-    "build": "parcel build --dist-dir build",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build --dist-dir build --public-url /game-ppt",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@parcel/transformer-image": "2.0.0-rc.0",

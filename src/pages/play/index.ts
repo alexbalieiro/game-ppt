@@ -89,7 +89,6 @@ export function initPageC(params) {
       state.pushToHistory({ ...resultado });
     });
   }
-
   contador(counter, params, div);
   div.appendChild(style);
   return div;

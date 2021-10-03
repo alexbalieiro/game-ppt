@@ -62,6 +62,7 @@ export function initPageD(params) {
   }
 `;
   div.appendChild(style);
+  state.clearCurrentGame();
   const button = div.querySelector(".button-return");
   button.addEventListener("click", () => {
     params.goTo("/instructions");
