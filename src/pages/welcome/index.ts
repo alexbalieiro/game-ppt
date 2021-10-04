@@ -28,7 +28,6 @@ export function initPageA(params) {
     @media (min-width: 951px) {
       .page-a {
         gap: 150px;
-        height: 100vh;
         justify-content: flex-end;
       }
   `;

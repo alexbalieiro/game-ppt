@@ -25,15 +25,18 @@ export function initPageD(params) {
   <div>
   `;
   style.innerHTML = `
-  .page-d{
+  body{
     background-color: ${
       resultado.win == "ganaste"
         ? "rgba(136, 137, 73, 0.9)"
         : "rgba(137, 73, 73, 0.9)"
     };
+    background-image: none;
+  }
+  .page-d{
     margin:0 auto;
     max-width: 400px;
-    height: 100vh;
+    height: 100%;
   }
   .container{
     display:flex;

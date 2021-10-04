@@ -29,8 +29,7 @@ export function initPageB(params) {
   }
   @media (min-width: 951px) {
     .page-b {
-      gap: 150px;
-      height: 100vh;
+      gap: 120px;
       justify-content: flex-end;
     }
   }
